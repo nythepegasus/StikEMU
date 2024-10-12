@@ -1,0 +1,87 @@
+# SwiftUI/.gitignore
+
+# Xcode
+#
+# Ignore build products
+build/
+DerivedData/
+# Ignore Xcode workspace settings
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+# Ignore Xcode project user-specific files
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/**
+
+# User-specific files
+*.xcuserstate
+xcuserdata/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Swift Package Manager
+#
+.build/
+Packages/
+
+# CocoaPods
+#
+Pods/
+
+# Carthage
+#
+Carthage/Build/
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Code Injection
+#
+.injection/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# macOS
+#
+.DS_Store
+
+# Xcode Generated Files
+#
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# SwiftPM
+#
+.swiftpm/xcode/package.xcworkspace/
+.swiftpm/xcode/xcshareddata/
+
+# AppCode
+#
+.idea/
+
+# Temporary files
+#
+*.swp
+*.swo
+*~
+
+# SwiftUI Previews
+#
+# These files are usually auto-generated and can be ignored if desired
+# Uncomment the following lines if you prefer to exclude them
+*.xcuserstate
+*.preview
+
+
